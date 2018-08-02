@@ -1,0 +1,53 @@
+# UTF-8 CRLF
+(1)How to Compile
+$ javac  -encoding utf-8 Main.java
+
+(2)How to Execution
+$ java Main
+
+(3)Program Description 
+Calclator.java:
+金額計算をするクラス
+Camera.java:
+顧客の性別を判断するクラス
+Coin.java:
+硬貨のクラス
+Database.java:
+商品と硬貨のデータを持つクラス
+Display.java:
+情報を表示するクラス
+Item.java:
+商品のクラス
+Pay.java:
+顧客から入金を受けるクラス
+Server.java:
+天気情報を送りスタッフに情報を渡すクラス
+SessionController.java:
+全体を統括しセッション管理をするクラス
+Touch.java:
+顧客から商品選択の入力を受けるクラス
+
+Main.java:
+インスタンスを作成するプログラム．
+
+(4)Execution result
+sunny
+INPUT Man:0 Woman:1:
+0
+recognized Man.
+Active items
+0
+1
+2
+recommend is ItemNo0
+recommend is ItemNo2
+[0]INPUT ItemNo(0/1/2)or coin value(10/50/100/500):
+2
+2Item recieved
+[1]INPUT ItemNo(0/1/2)or coin value(10/50/100/500):
+500
+500Coin recived
+charge350
+Output2
+Please pay attention to forget to take your item and charge.
+Thank you very much.
